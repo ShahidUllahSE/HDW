@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import img1 from "./img1.jpg";
 import img2 from "./img2.jpg";
-import img7 from "./img7.jpg";
+import img6 from "./img6.jpg";
 import img4 from "./img4.jpg";
 import img3 from "./img3.jpg";
 
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
 
         <div className="duration-1 ease-in-out w-full h-56" data-carousel-item>
-          <img src={img7} className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Slide 3" />
+          <img src={img6} className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Slide 3" />
         </div>
 
         <div className="duration-1 ease-in-out" data-carousel-item>
