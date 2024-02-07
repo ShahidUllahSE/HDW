@@ -30,6 +30,7 @@ const Navbar = () => {
                         <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Contact Us</div>
 
                     </div>
+                    
                 </div>
                 {/* <div className="cart text-center md:order-3 flex">
                     <div className="search hidden md:block mr-6"> All Microsoft </div>
@@ -40,6 +41,10 @@ const Navbar = () => {
                         <img className="w-4 h-4 mr-4" src="assets/account icon.svg" alt="" />
                     </div>
                 </div> */}
+
+
+
+              
             </div>
 
         
@@ -62,7 +67,11 @@ const Navbar = () => {
                     <span className="font-medium md:w-[8rem] md:text-center text-sm my-4">Get Windows 11</span>
                 </div>
             </div> */}
+
+
+           
         </div>
+        
     );
 };
 
