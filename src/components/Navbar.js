@@ -12,7 +12,7 @@ const Navbar = () => {
                         <div className="line h-0.5 w-6 my-1 bg-black"></div>
                         <div className="line h-0.5 w-6 my-1 bg-black"></div>
                     </div>
-                    <div className="search md:hidden w-4 mr-6"><img src="assets/search.svg" alt="" /></div>
+                    <div className="search md:hidden w-20 mr-6"><img src={logo1} alt="" /></div>
                 </div>
 
                 <div className="logo text-center bg-gray-200 flex md:order-1">
