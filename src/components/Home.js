@@ -216,7 +216,7 @@ const Home = () => {
         aims to bring about a positive change. By providing financial support,
         spreading awareness through seminars and conferences, and offering
         skill-enhancing workshops, we strive to empower women in Pakistan to
-        become independent, confident, and influential members of society.{" "}
+        become independent, confident, and influential members of society..{" "}
       </div>
     </div>
   );
