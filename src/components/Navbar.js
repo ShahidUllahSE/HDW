@@ -1,5 +1,6 @@
 import React from "react";
 import logo1 from "./logo1.png";
+import Home from "./Home";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import Team from './Team';
 const Navbar = () => {
@@ -29,7 +30,7 @@ const Navbar = () => {
               alt="Women Empowerment"
             />
             <a
-              href="/Home"
+              href="/"
               className="hover:underline hover:underline-offset-8 bg-gray-200 hover:text-blue-600 cursor-pointer font-semibold"
             >
               Home
@@ -92,6 +93,7 @@ const Navbar = () => {
                     <span className="font-medium md:w-[8rem] md:text-center text-sm my-4">Get Windows 11</span>
                 </div>
             </div> */}
+            {/* <Home/> */}
     </div>
   );
 };

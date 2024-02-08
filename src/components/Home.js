@@ -7,14 +7,18 @@ import img3 from "./img3.jpg";
 import women2 from './women2.jpg'
 import women5 from './women5.png'
 import workshop1 from "./workshop1.jpg";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 
 
 const Home = () => {
+
+  
   const carouselRef = useRef(null);
   const currentIndexRef = useRef(0);
   const autoSlideIntervalRef = useRef(null);
-
+  
   useEffect(() => {
     const carouselItems = carouselRef.current.querySelectorAll(
       "[data-carousel-item]"
@@ -359,6 +363,7 @@ In Pakistan, a third-world country with a deeply entrenched conservative and pat
         skill-enhancing workshops, we strive to empower women in Pakistan to
         become independent, confident, and influential members of society..{" "}
       </div> */}
+      <Footer/>
     </div>
   );
 };
