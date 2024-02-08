@@ -193,7 +193,7 @@ const Home = () => {
 
       <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
         {" "}
-        Skill Enhancement Workshops
+        Skills Enhancement Workshops
       </h1>
       <div className="font-semibold text-gray-600">
         The organisation holds workshops aimed at helping women in Pakistan
