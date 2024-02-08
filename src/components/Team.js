@@ -1,17 +1,11 @@
 import React from 'react'
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 
 const Team = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate()
 
-    navigate("/Team");
-  return (
-    
-    <div>
-
-      WHo we are
-    </div>
-  )
+  navigate('/Team')
+  return <div>WHo we are</div>
 }
 
 export default Team
