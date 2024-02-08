@@ -4,6 +4,11 @@ import img2 from "./img2.jpg";
 import img6 from "./img6.jpg";
 import img4 from "./img4.jpg";
 import img3 from "./img3.jpg";
+import women2 from './women2.jpg'
+import women5 from './women5.png'
+import workshop1 from "./workshop1.jpg";
+
+
 
 const Home = () => {
   const carouselRef = useRef(null);
@@ -48,9 +53,10 @@ const Home = () => {
   return (
     <div
       id="default-carousel"
-      className="relative w-full h-full p-11"
+      className="relative w-full h-full p-11 bg-gray-300"
       data-carousel="slide"
       ref={carouselRef}
+      
     >
       <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
         <div className="duration-10000 ease-in-out" data-carousel-item>
@@ -151,20 +157,155 @@ const Home = () => {
                                 </span>
                               </button> */}
       <div>
-        <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500 justify-start">
+        {/* <h1 className="font-bold text-2xl mt-2 mb-2   text-gray-500 justify-start">
           Introduction
-        </h1>
-        <div className="font-semibold text-gray-600">
-          The Women Empowerment Community Welfare Organization is on a mission
-          to empower women and advocate for their rights in Pakistan. Our
-          organization believes in equality and justice for all women. We work
-          to break down barriers and promote gender equality through advocacy,
-          education, and community outreach. Our organization offers programs
-          such as vocational training, entrepreneurship initiatives, and legal
-          aid services to help women develop skills and opportunities.{" "}
-        </div>
+        </h1> */}
+        {/* <div className="font-semibold text-black mr-20">
+          The Women Empowerment Community Welfare Organization works to improve
+          Pakistani women's lives in a constructive manner. In an effort to stop
+          discriminatory behaviors, we fight for justice and gender equality. We
+          empower women by educating them about their legal rights and
+          safeguards through educational programs. We actively collaborate with
+          local communities to solve the unique difficulties encountered by
+          women through our community outreach activities. Programs for
+          vocational training give women real-world skills that improve their
+          employability and financial security. Initiatives to support women
+          entrepreneurs help them launch and expand their own companies,
+          resulting in economic empowerment. Since we know how important legal
+          assistance is, we provide legal aid services to women who are dealing
+          with difficulties or injustices. By addressing complex issues, this
+          all-encompassing strategy seeks to build a more just and equal society
+          for women in Pakistan. The organization's commitment is reflected in a
+          holistic strategy that combines advocacy, education, vocational
+          training, entrepreneurship, and legal support, empowering women to
+          lead fulfilling lives and contribute meaningfully to their
+          communities.{" "}
 
-        <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
+          <div className="h-80 w-full ml-72 flex my-6 ">
+  <img src={women2} alt="" className="object-cover" />
+</div>
+        </div> */}
+
+
+
+        <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
+            <h1 className="text-2xl font-medium md:text-4xl  mx-5">Introduction</h1>
+            <p className=" mr-6 font-semibold">The Women Empowerment Community Welfare Organization works to improve
+          Pakistani women's lives in a constructive manner. In an effort to stop
+          discriminatory behaviors, we fight for justice and gender equality. We
+          empower women by educating them about their legal rights and
+          safeguards through educational programs. We actively collaborate with
+          local communities to solve the unique difficulties encountered by
+          women through our community outreach activities. Programs for
+          vocational training give women real-world skills that improve their
+          employability and financial security. Initiatives to support women
+          entrepreneurs help them launch and expand their own companies,
+          resulting in economic empowerment. Since we know how important legal
+          assistance is, we provide legal aid services to women who are dealing
+          with difficulties or injustices. By addressing complex issues, this
+          all-encompassing strategy seeks to build a more just and equal society
+          for women in Pakistan. The organization's commitment is reflected in a
+          holistic strategy that combines advocacy, education, vocational
+          training, entrepreneurship, and legal support, empowering women to
+          lead fulfilling lives and contribute meaningfully to their
+          communities.</p>
+        </div>
+        <div className="right">
+            <img className=" flex w-full h-96" src={women2} alt=""/>
+        </div>
+    </div>
+
+
+
+
+    <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
+            <h1 className="text-2xl font-medium md:text-4xl mx-5">Challenges in conservative society</h1>
+            <p className=" mr-6 "> 
+In Pakistan, a third-world country with a deeply entrenched conservative and patriarchal society, women often find themselves at the receiving end of systemic suppression. This suppression manifests in the denial of fundamental rights, including access to education, freedom in marriage choices, opportunities for work, and the exercise of voting rights. Despite the ongoing efforts of women in contemporary times to instigate positive change and assert their rights, the situation in rural areas remains remarkably resistant to transformation. Here, women encounter persistent challenges, and the broader societal framework continues to perpetuate a misogynistic environment..</p>
+        
+        </div>
+        {/* <div className="right">
+            <img className=" flex w-full h-96" src={women2} alt=""/>
+        </div> */}
+    </div>
+
+
+
+
+    <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
+            <h1 className="text-2xl font-medium md:text-4xl  mx-5">          Organization's Primary Objective
+</h1>
+            <p className=" mr-6 font-semibold">  The primary objective of this organisation is to offer assistance to
+          women in need by providing them with financial support. This support
+          goes towards helping them overcome financial hurdles that often
+          obstruct their path towards empowerment. Additionally, we organize
+          seminars and conferences to raise awareness about women's rights.
+          These events are designed to educate the public and foster a more
+          inclusive and just society in Pakistan..</p>
+        </div>
+        <div className="right">
+            <img className=" flex w-full h-96" src={women5} alt=""/>
+        </div>
+    </div>
+
+
+
+    <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
+            <h1 className="text-2xl font-medium md:text-4xl  mx-5">         Skills Enhancement Workshops
+
+</h1>
+            <p className=" mr-6 font-semibold">  The organisation holds workshops aimed at helping women in Pakistan
+        enhance their skills and talents. By equipping them with the necessary
+        tools and knowledge, these workshops encourage women to become
+        self-sufficient and independent. By focusing on various aspects, such as
+        entrepreneurship, vocational training, or leadership development, we aim
+        to empower women to excel in their chosen fields and emerge as strong
+        and capable individuals.</p>
+        </div>
+        <div className="right">
+            <img className=" flex w-full h-96" src={workshop1} alt=""/>
+        </div>
+    </div>
+
+
+    
+
+    <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
+            <h1 className="text-2xl font-medium md:text-4xl  mx-5">Conclusion
+</h1>
+            <p className=" mr-6 font-semibold">  This community welfare organisation operates with the purpose of
+        empowering women and advocating for their rights in Pakistan. It tackles
+        the challenges faced by women living in a deeply patriarchal society and
+        aims to bring about a positive change. By providing financial support,
+        spreading awareness through seminars and conferences, and offering
+        skill-enhancing workshops, we strive to empower women in Pakistan to
+        become independent, confident, and influential members of society..</p>
+        </div>
+        {/* <div className="right">
+            <img className=" flex w-full h-96" src={workshop1} alt=""/>
+        </div> */}
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
           Challenges in a Conservative Society
         </h1>
         <div className="font-semibold  text-gray-600 ">
@@ -176,8 +317,8 @@ const Home = () => {
           rural areas remains largely unchanged. Women in Pakistan still face
           significant challenges in proving their worth and navigating through
           the misogynistic society.
-        </div>
-        <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
+        </div> */}
+        {/* <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
           Organization's Primary Objective
         </h1>
         <div className="font-semibold text-gray-600">
@@ -188,10 +329,10 @@ const Home = () => {
           seminars and conferences to raise awareness about women's rights.
           These events are designed to educate the public and foster a more
           inclusive and just society in Pakistan.
-        </div>
+        </div> */}
       </div>
 
-      <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
+      {/* <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
         {" "}
         Skills Enhancement Workshops
       </h1>
@@ -203,9 +344,9 @@ const Home = () => {
         entrepreneurship, vocational training, or leadership development, we aim
         to empower women to excel in their chosen fields and emerge as strong
         and capable individuals.{" "}
-      </div>
+      </div> */}
 
-      <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
+      {/* <h1 className="font-bold text-2xl mt-2 mb-2  text-gray-500">
         {" "}
         Conclusion{" "}
       </h1>
@@ -217,7 +358,7 @@ const Home = () => {
         spreading awareness through seminars and conferences, and offering
         skill-enhancing workshops, we strive to empower women in Pakistan to
         become independent, confident, and influential members of society..{" "}
-      </div>
+      </div> */}
     </div>
   );
 };
