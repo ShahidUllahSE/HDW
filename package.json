@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://ShahidUllahSE.github.io/HDW",
   "private": true,
   "dependencies": {
     "@material-tailwind/react": "^2.1.8",
