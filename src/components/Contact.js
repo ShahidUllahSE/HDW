@@ -37,22 +37,22 @@ const Contact = () => {
   return (
     <div>
 
-<div className="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
+<div className="min-h-screen p-6 bg-gray-300 flex items-center justify-center">
   <div className="container max-w-screen-lg mx-auto">
     <div>
       <h2 className="font-bold text-center text-xl text-gray-600">Contact Us</h2>
-      <p className="text-gray-700 text-center mb-6">Please Fill with Valid Credentials.</p>
+      <p className="text-gray-700 text-center font-semibold mb-6">Please Fill with Valid Credentials.</p>
 
       <div className="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
         <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
           <div className="text-gray-600">
-            <p className="font-medium text-lg">Personal Details</p>
-            <p>Please fill out all the fields.</p>
+            <p className="text-lg font-semibold">Personal Details</p>
+            <p className='font-semibold'>Please fill out all the fields.</p>
           </div>
           <form className="mx-1 mx-md-4" onSubmit={(e) => register(e)}>
           <div className="lg:col-span-2">
             <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
-              <div className="md:col-span-5">
+              <div className="md:col-span-5  font-semibold">
                 <label for="full_name">Full Name</label>
                 <input
                  onChange={(e) => setFullName(e.target.value)}
@@ -63,7 +63,7 @@ const Contact = () => {
                 name="full_name" id="full_name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder='FullName'  />
               </div>
 
-              <div className="md:col-span-5">
+              <div className="md:col-span-5 font-semibold">
                 <label for="email">Email Address</label>
                 <input 
                 onChange={(e) => setEmail(e.target.value)}
@@ -80,7 +80,7 @@ const Contact = () => {
                 type="password" name="password" id="password" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"  placeholder="Password" />
               </div> */}
 
-              <div className="md:col-span-5">
+              <div className="md:col-span-5 font-semibold">
                 <label for="address">Address</label>
                 <input type="text"
                  onChange={(e) => setAddress(e.target.value)}
@@ -90,7 +90,7 @@ const Contact = () => {
 
               <div className="md:col-span-5">
                 
-<label for="message" class="block mb-2 ">Your message</label>
+<label for="message" class="block mb-2  font-semibold">Your message</label>
 <textarea id="message" onChange={(e) => setAddress(e.target.value)}
                  value={address} rows="4" class="block p-2.5 w-full border-2" placeholder="Write your thoughts here..."></textarea>
 
