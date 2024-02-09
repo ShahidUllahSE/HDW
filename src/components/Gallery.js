@@ -1,4 +1,15 @@
 import React from "react";
+import gallery4 from './assets/gallery4.jpg'
+import gallery3 from './assets/gallery3.jpg'
+import gallery2 from './assets/gallery2.jpg'
+import gallery1 from './assets/gallery1.jpg'
+import gallery5 from './assets/gallery5.jpg'
+import gallery6 from './assets/gallery6.jpg'
+
+
+
+
+
 
 const Gallery = () => {
   return <div>
@@ -9,41 +20,42 @@ const Gallery = () => {
 </div>
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt=""/>
+        <img class="h-96 w-full rounded-lg" src={gallery4} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt=""/>
+        <img class="h-96 w-full rounded-lg" src={gallery3} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt=""/>
+        <img class="h-96 w-full rounded-lg" src={gallery2} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt=""/>
+        <img class="h-96 w-full rounded-lg" src={gallery1} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt=""/>
+        <img class="h-96 w-full rounded-lg" src={gallery5} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt=""/>
+        <img class="h-96 w-full rounded-lg" src={gallery6} alt=""/>
     </div>
-    <div>
+    {/* <div>
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt=""/>
-    </div>
-    <div>
+    </div> */}
+    {/* <div>
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt=""/>
-    </div>
-    <div>
+    </div> */}
+    {/* <div>
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt=""/>
-    </div>
-    <div>
+    </div> */}
+    {/* <div>
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt=""/>
-    </div>
-    <div>
+    </div> */}
+    {/* <div>
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt=""/>
-    </div>
-    <div>
+    </div> */}
+    {/* <div>
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt=""/>
-    </div>
+    </div> */}
+    
 </div>
 
   </div>;

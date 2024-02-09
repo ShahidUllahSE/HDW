@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Help from "./components/Help";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,8 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Projects" element={<Projects />} />
+          <Route path="/Help" element={<Help />} />
+
 
         </Routes>
       </Router>

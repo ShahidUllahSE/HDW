@@ -55,9 +55,9 @@ const Navbar = () => {
             <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Become Volenteer{" "}
             </div>
-            <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            <a href="/Help" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Help us{" "}
-            </div>
+            </a>
             <a
               href="/Contact"
               className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold"
