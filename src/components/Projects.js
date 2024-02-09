@@ -3,13 +3,14 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="mx-28">
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
-      <h1 className="text-xl text-center -ml-32 font-medium md:text-3xl  text-blue-900 mx-5">
+      <h1 className="text-xl mt-7 mb-3 text-center -ml-32 font-medium md:text-3xl  text-blue-900 mx-5">
       Help Divorce Women
           </h1>
+          <hr/>
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
         <div className="left flex flex-col  items-center md:items-baseline py-4  space-y-5">
           <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
-            About Projectcha
+            About Project
           </h1>
           <p className=" mr-6 font-semibold mx-5">
             {" "}
