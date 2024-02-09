@@ -59,9 +59,9 @@ const Navbar = () => {
             <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Help us{" "}
             </div>
-            <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            <a href="/Contact" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Contact Us
-            </div>
+            </a>
           </div>
         </div>
         {/* <div className="cart text-center md:order-3 flex">
