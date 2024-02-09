@@ -27,17 +27,20 @@ const Help = () => {
       </div>
 
       <div className="slider mt-4 flex-col-reverse md:flex-row mx-24 mb-60 bg-[#f2f2f2]">
-      <div className="left flex flex-col items-center md:items-baseline py-4 -ml-1 space-y-5">
+      <div className="left flex flex-col items-center md:items-baseline py-4   space-y-5">
   <p className="font-semibold ml-96">You can donate on
   <br/>
-  Habib Bank Limited
+  <div className="ml-5">
+
+ Faisal Bank
+  </div>
   
   
   </p>
 </div>
 
 
-        <div className="-ml-5">
+        <div className="-ml-6">
           <p className="font-bold text-xl ml-96  ">3201383000003526</p>
         </div>
       </div>

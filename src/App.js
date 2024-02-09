@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Help from "./components/Help";
+import Volanteer from "./components/Volanteer";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,8 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Help" element={<Help />} />
+          <Route path="/Volanteer" element={<Volanteer />} />
+
 
 
         </Routes>

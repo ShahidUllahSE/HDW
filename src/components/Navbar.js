@@ -52,9 +52,9 @@ const Navbar = () => {
             <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Videos
             </div>
-            <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            <a href="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Become Volenteer{" "}
-            </div>
+            </a>
             <a href="/Help" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Help us{" "}
             </a>
