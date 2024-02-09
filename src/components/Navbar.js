@@ -46,9 +46,9 @@ const Navbar = () => {
             >
               Gallery
             </a>
-            <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            <a href="/Projects" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Projects
-            </div>
+            </a>
             <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Videos
             </div>
@@ -58,7 +58,10 @@ const Navbar = () => {
             <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Help us{" "}
             </div>
-            <a href="/Contact" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            <a
+              href="/Contact"
+              className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold"
+            >
               Contact Us
             </a>
           </div>
@@ -92,7 +95,7 @@ const Navbar = () => {
                     <span className="font-medium md:w-[8rem] md:text-center text-sm my-4">Get Windows 11</span>
                 </div>
             </div> */}
-            {/* <Home/> */}
+      {/* <Home/> */}
     </div>
   );
 };

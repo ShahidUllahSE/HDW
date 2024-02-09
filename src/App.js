@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Gallery from "./components/Gallery";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           {/* <Route path="/Team" element={<Team />} /> */}
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Projects" element={<Projects />} />
 
         </Routes>
       </Router>
