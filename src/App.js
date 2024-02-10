@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Help from "./components/Help";
 import Volanteer from "./components/Volanteer";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
 
 
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
