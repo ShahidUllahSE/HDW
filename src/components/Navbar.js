@@ -38,7 +38,7 @@ const Navbar = () => {
               href="/Team"
               className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer  font-semibold "
             >
-              Who We Are
+              Team
             </a>
             <a
               href="/Gallery"

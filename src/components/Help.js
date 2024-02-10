@@ -36,7 +36,7 @@ Every penny counts and makes a difference in the lives of these women. Your supp
         <div className="m-4">
           <p className=" font-bold font-serif text-center -ml-2">
             "Alone we can do little,<br/> together we can do so much"
-          </p>
+            <h1 className="text-xl font-semibold font-mono">Helen Keller </h1>
         </div>
       </div>
 

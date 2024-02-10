@@ -363,7 +363,7 @@ Pakistan, being a third-world country with a deeply entrenched conservative and 
         skill-enhancing workshops, we strive to empower women in Pakistan to
         become independent, confident, and influential members of society.{" "}
       </div> */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };
