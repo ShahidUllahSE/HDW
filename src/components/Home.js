@@ -7,6 +7,7 @@ import img3 from "./img3.jpg";
 import women2 from './women2.jpg'
 import women5 from './women5.png'
 import workshop1 from "./workshop1.jpg";
+import homeBanner from './assets/homeBanner.png'
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -194,8 +195,8 @@ const Home = () => {
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl  mx-5">Introduction</h1>
-            <p className=" mr-6 font-semibold">The Women Empowerment Community Welfare Organization works to improve
+            <h1 className="text-2xl font-medium md:text-4xl text-blue-900 mx-5">About Us</h1>
+            <p className=" mr-6 font-semibold">The Empover Her Organization works to improve
           Pakistani women's lives in a constructive manner. In an effort to stop
           discriminatory behaviors, we fight for justice and gender equality. We
           empower women by educating them about their legal rights and
@@ -225,9 +226,9 @@ const Home = () => {
 
     <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl mx-5">Challenges in conservative society</h1>
-            <p className=" mr-6 "> 
-In Pakistan, a third-world country with a deeply entrenched conservative and patriarchal society, women often find themselves at the receiving end of systemic suppression. This suppression manifests in the denial of fundamental rights, including access to education, freedom in marriage choices, opportunities for work, and the exercise of voting rights. Despite the ongoing efforts of women in contemporary times to instigate positive change and assert their rights, the situation in rural areas remains remarkably resistant to transformation. Here, women encounter persistent challenges, and the broader societal framework continues to perpetuate a misogynistic environment..</p>
+            <h1 className="text-2xl font-medium md:text-4xl text-blue-900 mx-5">Challenges Faced By Women</h1>
+            <p className=" mr-6 font-semibold"> 
+Pakistan, being a third-world country with a deeply entrenched conservative and patriarchal society, women often find themselves at the receiving end of systemic suppression. This suppression manifests in the denial of fundamental rights, including access to education, freedom in marriage choices, opportunities for work, and the exercise of voting rights. Despite the ongoing efforts of women in contemporary times to instigate positive change and assert their rights, the situation in rural areas remains remarkably resistant to transformation. Here, women encounter persistent challenges, and the broader societal framework continues to perpetuate a misogynistic environment..</p>
         
         </div>
         {/* <div className="right">
@@ -240,28 +241,28 @@ In Pakistan, a third-world country with a deeply entrenched conservative and pat
 
     <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl  mx-5">          Organization's Primary Objective
+            <h1 className="text-2xl font-medium md:text-4xl  text-blue-900 mx-5">          Our Objective
 </h1>
-            <p className=" mr-6 font-semibold">  The primary objective of this organisation is to offer assistance to
+            <p className=" mr-6 font-semibold">  Our primary objective is to offer assistance to
           women in need by providing them with financial support. This support
           goes towards helping them overcome financial hurdles that often
           obstruct their path towards empowerment. Additionally, we organize
           seminars and conferences to raise awareness about women's rights.
           These events are designed to educate the public and foster a more
-          inclusive and just society in Pakistan..</p>
+          inclusive and just society in Pakistan.</p>
         </div>
         <div className="right">
-            <img className=" flex w-full h-96" src={women5} alt=""/>
+            <img className=" flex w-full h-96" src={homeBanner} alt=""/>
         </div>
     </div>
 
 
 
     <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
-        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl  mx-5">         Skills Enhancement Workshops
+        <div className="left flex flex-col  items-center md:items-baseline py-5 ml-2  space-y-5">
+            {/* <h1 className="text-2xl font-medium md:text-4xl  text-blue-900 mx-5">         Skills Enhancement Workshops
+</h1> */}
 
-</h1>
             <p className=" mr-6 font-semibold">  The organisation holds workshops aimed at helping women in Pakistan
         enhance their skills and talents. By equipping them with the necessary
         tools and knowledge, these workshops encourage women to become
@@ -279,9 +280,9 @@ In Pakistan, a third-world country with a deeply entrenched conservative and pat
     
 
     <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
-        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl  mx-5">Conclusion
-</h1>
+        <div className="left flex flex-col  items-center md:items-baseline py-5  space-y-5">
+            {/* <h1 className="text-2xl font-medium md:text-4xl text-blue-900  mx-5">Conclusion
+</h1> */}
             <p className=" mr-6 font-semibold">  This community welfare organisation operates with the purpose of
         empowering women and advocating for their rights in Pakistan. It tackles
         the challenges faced by women living in a deeply patriarchal society and
@@ -361,9 +362,9 @@ In Pakistan, a third-world country with a deeply entrenched conservative and pat
         aims to bring about a positive change. By providing financial support,
         spreading awareness through seminars and conferences, and offering
         skill-enhancing workshops, we strive to empower women in Pakistan to
-        become independent, confident, and influential members of society..{" "}
+        become independent, confident, and influential members of society.{" "}
       </div> */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };

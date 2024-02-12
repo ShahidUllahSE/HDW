@@ -1,6 +1,5 @@
 import React from "react";
 import logo1 from "./logo1.png";
-import Home from "./Home";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import Team from './Team';
 const Navbar = () => {
@@ -39,7 +38,7 @@ const Navbar = () => {
               href="/Team"
               className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer  font-semibold "
             >
-              Who We Are
+              Team
             </a>
             <a
               href="/Gallery"
@@ -47,19 +46,22 @@ const Navbar = () => {
             >
               Gallery
             </a>
-            <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            <a href="/Projects" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Projects
-            </div>
+            </a>
             <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Videos
             </div>
-            <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            <a href="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Become Volenteer{" "}
-            </div>
-            <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            </a>
+            <a href="/Help" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
               Help us{" "}
-            </div>
-            <a href="/Contact" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">
+            </a>
+            <a
+              href="/Contact"
+              className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold"
+            >
               Contact Us
             </a>
           </div>
@@ -93,7 +95,7 @@ const Navbar = () => {
                     <span className="font-medium md:w-[8rem] md:text-center text-sm my-4">Get Windows 11</span>
                 </div>
             </div> */}
-            {/* <Home/> */}
+      {/* <Home/> */}
     </div>
   );
 };
