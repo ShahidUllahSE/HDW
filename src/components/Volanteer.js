@@ -44,7 +44,7 @@ const Volanteer = () => {
       console.log(err);
     
       if (err.response) {
-        alert(err.response.data)
+        alert(err.response.data.message)
         // NotificationManager.error(err.response.data, '', 3000);
       } else {
         NotificationManager.error('Network Error. Please try again later.', '', 3000);
