@@ -1,9 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo1 from "./logo1.png";
-// Import any additional components or stylesheets if needed
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setShowMenu(false); // Hide the menu when resizing beyond "md" breakpoint
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleToggleMenu = () => {
     setShowMenu(!showMenu);
@@ -12,8 +23,11 @@ const Navbar = () => {
   return (
     <div className="container mx-auto bg-gray-200">
       <div className="navbar flex justify-between items-center p-4">
-        <div className="flex justify-center items-center  md:order-2">
-          <div className="hamburger inline-block p-4 cursor-pointer md:hidden" onClick={handleToggleMenu}>
+        <div className="flex justify-center items-center md:order-2">
+          <div
+            className="hamburger inline-block p-4 cursor-pointer md:hidden"
+            onClick={handleToggleMenu}
+          >
             <div className="line h-0.5 w-6 my-1 bg-black"></div>
             <div className="line h-0.5 w-6 my-1 bg-black"></div>
             <div className="line h-0.5 w-6 my-1 bg-black"></div>
@@ -30,8 +44,8 @@ const Navbar = () => {
               <a href="/Team" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Team</a>
               <a href="/Gallery" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Gallery</a>
               <a href="/Projects" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Projects</a>
-              <a href="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Become Volenteer</a>
-              <a href="/Help" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Help us</a>
+              <a href="/Volunteer" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Become Volunteer</a>
+              <a href="/Help" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Help Us</a>
               <a href="/Contact" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Contact Us</a>
             </div>
           </div>
@@ -49,8 +63,8 @@ const Navbar = () => {
             <a href="/Gallery" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Gallery</a>
             <a href="/Projects" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Projects</a>
             <div className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Videos</div>
-            <a href="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Become Volenteer</a>
-            <a href="/Help" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Help us</a>
+            <a href="/Volunteer" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Become Volunteer</a>
+            <a href="/Help" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Help Us</a>
             <a href="/Contact" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Contact Us</a>
           </div>
         </div>
