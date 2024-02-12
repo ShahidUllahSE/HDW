@@ -9,6 +9,10 @@ const Volanteer = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [contact, setContact] = useState('');
+  const [institute, setInstitute] = useState('');
+  const [fatherName, setFatherName] = useState('');
+
+
   const [message, setMessage] = useState('');
   const [profession, setProfession] = useState('');
 
@@ -20,24 +24,33 @@ const Volanteer = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3001/api/user/register", {
+      const response = await axios.post("http://localhost:3001/api/volenteer/", {
         name: fullName,
         email: email,
         contact: contact,
         message: message,
-        profession: profession
+        profession: profession,
+        fatherName:fatherName,
+        institute:institute
       });
 
       // Assuming the response structure has an email property
-      const registeredUserEmail = response.data.email;
+      const registeredUserEmail = response.data && response.data.email;
 
-      NotificationManager.success(`User ${registeredUserEmail} has been successfully registered`, "", 3000);
-      naviagte("/login");
+      // NotificationManager.success(`User ${registeredUserEmail} has been successfully registered`, "", 3000);
+      alert(`User ${registeredUserEmail} has been successfully registered`)
+      // naviagte("/login");
     } catch (err) {
       console.log(err);
-      NotificationManager.error(err.response.data, '', 3000);
-    }
-  };
+    
+      if (err.response) {
+        alert(err.response.data)
+        // NotificationManager.error(err.response.data, '', 3000);
+      } else {
+        NotificationManager.error('Network Error. Please try again later.', '', 3000);
+      }
+  }
+};
 
   return (
     <div>
@@ -67,6 +80,33 @@ const Volanteer = () => {
               
                 name="full_name" id="full_name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder='FullName'  />
               </div>
+
+
+
+              <div className="md:col-span-5  font-semibold">
+                <label for="full_name">Father Name</label>
+                <input
+                 onChange={(e) => setFatherName(e.target.value)}
+                 value={fatherName}
+                type="text" 
+               
+              
+                name="fatherName" id="FatherName" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder='Father Name'  />
+              </div>
+
+
+              <div className="md:col-span-5  font-semibold">
+                <label for="full_name">Institute</label>
+                <input
+                 onChange={(e) => setInstitute(e.target.value)}
+                 value={institute}
+                type="text" 
+               
+              
+                name="institute" id="institute" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder='Institute Name'  />
+              </div>
+
+
 
               <div className="md:col-span-5 font-semibold">
                 <label for="email">Email Address</label>

@@ -1,5 +1,6 @@
 import React from "react";
 import donate2 from "./assets/donate2.png";
+import quote1 from './assets/Quote1.png'
 const Help = () => {
   return (
     <div>
@@ -27,16 +28,24 @@ Every penny counts and makes a difference in the lives of these women. Your supp
  If you're interested in making a donation or learning more about our organization, please don't hesitate to reach out. Together, let's uplift, inspire, and empower women to reach their full potential.
  <br/>
  <br/>
+ <div className="ml-48 font-serif">
+
  Thank you for considering our cause. Your support means the world to us.
+ </div>
 
  
           </p>
         </div>
 
         <div className="m-4">
-          <p className=" font-bold font-serif text-center -ml-2">
+          {/* <p className=" font-bold font-serif text-center -ml-2">
             "Alone we can do little,<br/> together we can do so much"
             <h1 className="text-xl font-semibold font-mono">Helen Keller </h1>
+          </p> */}
+          <div className="ml-80 ">
+          <img className="h-96 w-full -ml-40 justify-center items-center" src={quote1} alt=""/>
+
+          </div>
         </div>
       </div>
 

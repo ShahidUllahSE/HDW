@@ -1,5 +1,6 @@
 import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { NotificationContainer } from 'react-notifications';
 import Navbar from "./components/Navbar";
 import Gallery from "./components/Gallery";
 import Home from "./components/Home";
@@ -12,7 +13,7 @@ import Team from "./components/Team";
 function App() {
   return (
     <div className="App">
-
+<div>
       <Router>
         <Navbar />
         <Routes>
@@ -29,6 +30,9 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
+</div>
+
+      {/* <NotificationContainer /> */}
     </div>
   );
 }

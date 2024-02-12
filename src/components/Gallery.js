@@ -1,8 +1,11 @@
 import React from "react";
-import gallery4 from './assets/gallery4.jpg'
-import gallery3 from './assets/gallery3.jpg'
-import gallery2 from './assets/gallery2.jpg'
-import gallery1 from './assets/gallery1.jpg'
+import g1 from './assets/g1.png'
+import g2 from './assets/g2.png'
+import g3 from './assets/g3.png'
+import g4 from './assets/g4.png'
+
+
+
 import gallery5 from './assets/gallery5.jpg'
 import gallery6 from './assets/gallery6.jpg'
 
@@ -20,16 +23,16 @@ const Gallery = () => {
 </div>
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
     <div>
-        <img class="h-96 w-full rounded-lg" src={gallery4} alt=""/>
+        <img class="h-96 w-full rounded-lg" src={g1} alt=""/>
     </div>
     <div>
-        <img class="h-96 w-full rounded-lg" src={gallery3} alt=""/>
+        <img class="h-96 w-full rounded-lg" src={g2} alt=""/>
     </div>
     <div>
-        <img class="h-96 w-full rounded-lg" src={gallery2} alt=""/>
+        <img class="h-96 w-full rounded-lg" src={g3} alt=""/>
     </div>
     <div>
-        <img class="h-96 w-full rounded-lg" src={gallery1} alt=""/>
+        <img class="h-96 w-full rounded-lg" src={g4} alt=""/>
     </div>
     <div>
         <img class="h-96 w-full rounded-lg" src={gallery5} alt=""/>

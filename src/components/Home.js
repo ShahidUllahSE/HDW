@@ -7,6 +7,7 @@ import img3 from "./img3.jpg";
 import women2 from './women2.jpg'
 import women5 from './women5.png'
 import workshop1 from "./workshop1.jpg";
+import homeBanner from './assets/homeBanner.png'
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -251,7 +252,7 @@ Pakistan, being a third-world country with a deeply entrenched conservative and 
           inclusive and just society in Pakistan.</p>
         </div>
         <div className="right">
-            <img className=" flex w-full h-96" src={women5} alt=""/>
+            <img className=" flex w-full h-96" src={homeBanner} alt=""/>
         </div>
     </div>
 
