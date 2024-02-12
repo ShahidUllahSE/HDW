@@ -8,7 +8,7 @@ const Contact = () => {
 
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [message, setMessage] = useState('');
   const [address, setAddress] = useState('');
 
   const naviagte = useNavigate();
@@ -20,7 +20,9 @@ const Contact = () => {
       const response = await axios.post("http://localhost:3001/api/user/register", {
         name: fullName,
         email: email,
-        password: password
+        address: address,
+        message: message,
+
       });
 
       // Assuming the response structure has an email property
@@ -91,8 +93,8 @@ const Contact = () => {
               <div className="md:col-span-5">
                 
 <label for="message" class="block mb-2  font-semibold">Your message</label>
-<textarea id="message" onChange={(e) => setAddress(e.target.value)}
-                 value={address} rows="4" class="block p-2.5 w-full border-2" placeholder="Write your thoughts here..."></textarea>
+<textarea id="message" onChange={(e) => setMessage(e.target.value)}
+                 value={message} rows="4" class="block p-2.5 w-full border-2" placeholder="Write your thoughts here..."></textarea>
 
                 {/* <label for="message">Message</label>
                 <input type="textbox"
@@ -115,9 +117,7 @@ const Contact = () => {
       </div>
     </div>
 
-    <a href="https://www.buymeacoffee.com/dgauderman" target="_blank" className="md:absolute bottom-0 right-0 p-4 float-right">
-      <img src="https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-3.svg" alt="Buy Me A Coffee" className="transition-all rounded-full w-14 -rotate-45 hover:shadow-sm shadow-lg ring hover:ring-4 ring-white"/>
-    </a>
+ 
   </div>
 </div>
 

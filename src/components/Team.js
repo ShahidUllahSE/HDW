@@ -1,22 +1,22 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import manayal from "../assets/manayal.png";
-import uzair from "../assets/uzair.png"
-import eman from "../assets/eman.png"
-import moeez from "../assets/moeez.png"
-import wadana from "../assets/wadana.png"
-import mahnoor from "../assets/mahnoor.png"
-import faisal from "../assets/faisal.png"
-import marwa from "../assets/marwa.png"
-import ayesha from "../assets/ayesha.png"
-import umair from "../assets/umair.png"
-import umar from '../assets/umar.png'
-import afaq from "../assets/afaq.png"
-import iqra from "../assets/iqra.png"
-import laiba from "../assets/laiba.png"
-import manahil from "../assets/manahil.png"
-import muneeb from "../assets/muneeb.png"
-import suliman from '../assets/suliman.png'
+import manayal from "./assets/Manayal.png"
+import uzair from "./assets/uzair.png"
+import eman from "./assets/Eman.png"
+import moeez from "./assets/moeez.png"
+import wadana from "./assets/Wadana.png"
+import mahnoor from "./assets/mahnoor.png"
+import faisal from "./assets/faisal.png"
+import marwa from "./assets/Marwa.png"
+import ayesha from "./assets/ayesha.png"
+import umair from "./assets/umair.png"
+import umar from './assets/umar.png'
+import afaq from "./assets/afaq.png"
+import iqra from "./assets/iqra.png"
+import laiba from "./assets/laiba.png"
+import manahil from "./assets/manahil.png"
+import muneeb from "./assets/muneeb.png"
+import suliman from './assets/suliman.png'
 
 
 const Team = () => {
