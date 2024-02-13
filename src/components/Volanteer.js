@@ -37,14 +37,14 @@ const Volanteer = () => {
       // Assuming the response structure has an email property
       const registeredUserEmail = response.data && response.data.email;
 
-      // NotificationManager.success(`User ${registeredUserEmail} has been successfully registered`, "", 3000);
-      alert(`User ${registeredUserEmail} has been successfully registered`)
+      NotificationManager.success(`User ${registeredUserEmail} has been successfully registered`, "", 3000);
+      // alert(`User ${registeredUserEmail} has been successfully registered`)
       // naviagte("/login");
     } catch (err) {
       console.log(err);
     
       if (err.response) {
-        alert(err.response.data.message)
+        alert(err.response.data)
         // NotificationManager.error(err.response.data, '', 3000);
       } else {
         NotificationManager.error('Network Error. Please try again later.', '', 3000);
@@ -147,7 +147,7 @@ const Volanteer = () => {
                 <input type="text"
                  onChange={(e) => setAddress(e.target.value)}
                  value={address}
-                name="email" id="address" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Address" />
+                name="address" id="address" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Address" />
               </div>
 
               <div className="md:col-span-5">
@@ -177,9 +177,7 @@ const Volanteer = () => {
       </div>
     </div>
 
-    <a href="https://www.buymeacoffee.com/dgauderman" target="_blank" className="md:absolute bottom-0 right-0 p-4 float-right">
-      <img src="https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-3.svg" alt="Buy Me A Coffee" className="transition-all rounded-full w-14 -rotate-45 hover:shadow-sm shadow-lg ring hover:ring-4 ring-white"/>
-    </a>
+  
   </div>
 </div>
 

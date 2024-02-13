@@ -32,7 +32,7 @@ function App() {
       </Router>
 </div>
 
-      {/* <NotificationContainer /> */}
+      <NotificationContainer />
     </div>
   );
 }
