@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo1 from "./logo1.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -41,7 +42,7 @@ const Navbar = () => {
           <div className="lg:hidden fixed top-0 left-0 w-full h-full bg-gray-200">
             <div className="flex flex-col items-center p-4">
               <a href="/" className="hover:underline hover:underline-offset-8 bg-gray-200 hover:text-blue-600 cursor-pointer font-semibold">Home</a>
-              <a href="/Team" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Team</a>
+              <Link to="/Team" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Team</Link>
               <a href="/Gallery" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Gallery</a>
               <a href="/Projects" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Projects</a>
               <a href="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Become Volanteer</a>
