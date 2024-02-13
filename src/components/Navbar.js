@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Logoo from "./Logoo.png";
 
+import logo1 from "./logo1.png";
+import { Link } from "react-router-dom";
+
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -48,7 +52,7 @@ const Navbar = () => {
               {/* Navigation links for small screens */}
               {/* Links */}
               <a href="/" className="hover:underline hover:underline-offset-8 bg-gray-200 hover:text-blue-600 cursor-pointer font-semibold">Home</a>
-              <a href="/Team" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Team</a>
+              <Link to="/Team" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Team</Link>
               <a href="/Gallery" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Gallery</a>
               <a href="/Projects" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Projects</a>
               <a href="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-blue-600 cursor-pointer font-semibold">Become Volunteer</a>
