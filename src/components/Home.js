@@ -12,6 +12,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Team from "./Team";
 
+
 const Home = () => {
   const carouselRef = useRef(null);
   const currentIndexRef = useRef(0);
@@ -142,6 +143,7 @@ const Home = () => {
         ></button>
       </div>
 
+
       <div>
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
@@ -257,11 +259,10 @@ const Home = () => {
             </p>
           </div>
         </div>
-          {/* <Team/> */}
-      </div>
 
-      {/* <Footer/> */}
-      {/* <Team/> */}
+        
+    </div>
+
     </div>
   );
 };
