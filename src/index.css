@@ -14,3 +14,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:200;
+}
+p{
+  /* font-family:monospace */
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
