@@ -147,10 +147,10 @@ const Home = () => {
       <div>
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl text-blue-900 mx-5">
+            <h1 className="text-2xl  font-medium md:text-4xl text-blue-900 mx-5">
               About Us
             </h1>
-            <p className=" mr-6 font-semibold">
+            <p className=" text-xl mr-6 ">
               The Empover Her Organization works to improve Pakistani women's
               lives in a constructive manner. In an effort to stop
               discriminatory behaviors, we fight for justice and gender
@@ -182,7 +182,7 @@ const Home = () => {
             <h1 className="text-2xl font-medium md:text-4xl text-blue-900 mx-5">
               Challenges Faced By Women
             </h1>
-            <p className=" mr-6 font-semibold">
+            <p className="text-xl mr-6">
               Pakistan, being a third-world country with a deeply entrenched
               conservative and patriarchal society, women often find themselves
               at the receiving end of systemic suppression. This suppression
@@ -207,7 +207,7 @@ const Home = () => {
               {" "}
               Our Objective
             </h1>
-            <p className=" mr-6 font-semibold">
+            <p className="text-xl mr-6 ">
               {" "}
               Our primary objective is to offer assistance to women in need by
               providing them with financial support. This support goes towards
@@ -228,7 +228,7 @@ const Home = () => {
             {/* <h1 className="text-2xl font-medium md:text-4xl  text-blue-900 mx-5">         Skills Enhancement Workshops
 </h1> */}
 
-            <p className=" mr-6 font-semibold">
+            <p className="text-xl mr-6 ">
               {" "}
               The organisation holds workshops aimed at helping women in
               Pakistan enhance their skills and talents. By equipping them with
@@ -245,8 +245,8 @@ const Home = () => {
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
-          <div className="left flex flex-col  items-center md:items-baseline py-5  space-y-5">
-            <p className=" mr-6 font-semibold">
+          <div className="left flex flex-col  items-center  md:items-baseline py-5  space-y-5">
+            <p className="text-xl mr-6 ">
               {" "}
               This community welfare organisation operates with the purpose of
               empowering women and advocating for their rights in Pakistan. It

@@ -2,17 +2,24 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="mx-28">
+    <div className="bg-gray-300">
+          <div className="mx-28 ">
+      <div className="bg-gray-200 py-2">
+        <div>
       <h1 className="text-xl mt-7 mb-3 text-center -ml-32 font-medium md:text-3xl  text-blue-900 mx-5">
       Help Divorce Women
           </h1>
+          </div>
+</div>
+
           <hr/>
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+          
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-4  space-y-5">
           <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
             About Project
           </h1>
-          <p className=" mr-6 font-semibold mx-5">
+          <p className=" mr-6 text-xl mx-5">
             {" "}
             Our primary objective is to offer assistance to women in need by
             providing them with financial support. This support goes towards
@@ -32,13 +39,13 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
           <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
             {" "}
             Our Aim
           </h1>
-          <p className=" mr-6 font-semibold mx-5">
+          <p className=" mr-6 text-xl mx-5">
             {" "}
             Understanding the multifarious implications of divorce, Help Divorce
             Women organises transformative workshops and empowers communities
@@ -81,7 +88,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
           <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
             What We Offer{" "}
@@ -91,7 +98,7 @@ const Projects = () => {
             Social Awareness through seminars and conferences among youth
           </h1>
 
-          <p className=" mr-6 font-semibold mx-5">
+          <p className=" mr-6 text-xl mx-5">
             {" "}
             Social awareness and education play a vital role in addressing the
             pressing issue of divorce within conservative societies such as
@@ -147,13 +154,13 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
           <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
             financial Assistance:{" "}
           </h1>
 
-          <p className=" mr-6 font-semibold mx-5">
+          <p className=" mr-6 text-xl mx-5">
             {" "}
             The Helping Divorced Women Project is an invaluable initiative that
             is dedicated to providing assistance and support to those women who
@@ -191,13 +198,13 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
           <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
             Emotional Support{" "}
           </h1>
 
-          <p className=" mr-6 font-semibold mx-5">
+          <p className=" mr-6 text-xl mx-5">
             {" "}
             The Help Divorced Women Project is a sanctuary of encouragement,
             serving as a catalyst for personal and emotional transformation.
@@ -221,13 +228,13 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-          <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
+          <h1 className="text-xl bg-white font-medium md:text-3xl  text-blue-900 mx-5">
             Practical Guidance:{" "}
           </h1>
 
-          <p className=" mr-6 font-semibold mx-5">
+          <p className=" mr-6 text-xl mx-5">
             {" "}
             Help divorce women helps on practical grounds and provides legal
             assistance, financial support and emotional assistance to the woman.{" "}
@@ -265,6 +272,8 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </div>
+
   );
 };
 
