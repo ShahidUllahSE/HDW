@@ -2,50 +2,40 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="bg-gray-300">
-          <div className="mx-28 ">
-      <div className="bg-gray-200 py-2">
-        <div>
-      <h1 className="text-xl mt-7 mb-3 text-center -ml-32 font-medium md:text-3xl  text-blue-900 mx-5">
-      Help Divorce Women
-          </h1>
-          </div>
-</div>
-
-          <hr/>
-          
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-        <div className="left flex flex-col  items-center md:items-baseline py-4  space-y-5">
-          <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
-            About Project
-          </h1>
-          <p className=" mr-6 text-xl mx-5">
-            {" "}
-            Our primary objective is to offer assistance to women in need by
-            providing them with financial support. This support goes towards
-            helping them overcome financial hurdles that often obstruct their
-            path towards empowerment. Additionally, we organize seminars and
-            conferences to raise awareness about women's rights. These events
-            are designed to educate the public and foster a more inclusive and
-            just society in Pakistan.
-            <br />
-            With a resolute determination, Help Divorce Women endeavours to not
-            only alleviate the staggering numbers of divorce cases but also to
-            offer comprehensive financial support that will empower these women
-            towards a brighter future. Through a multifaceted approach, the
-            project envisions a society where divorce women are not left to
-            carry the emotional and financial burdens alone.
-          </p>
-        </div>
+    <div className="mx-4 sm:mx-10 md:mx-16 lg:mx-20 xl:mx-28">
+      <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-3 mt-7 text-center font-medium text-blue-900">
+        Help Divorce Women
+      </h1>
+      <hr />
+      {/* About Project Section */}
+      <div className="mt-4 bg-[#f2f2f2] p-4 md:p-6 lg:p-8">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">
+          About Project
+        </h1>
+        <p className="text-base sm:text-lg">
+          Our primary objective is to offer assistance to women in need by
+          providing them with financial support. This support goes towards
+          helping them overcome financial hurdles that often obstruct their
+          path towards empowerment. Additionally, we organize seminars and
+          conferences to raise awareness about women's rights. These events
+          are designed to educate the public and foster a more inclusive and
+          just society in Pakistan.
+          <br />
+          With a resolute determination, Help Divorce Women endeavours to not
+          only alleviate the staggering numbers of divorce cases but also to
+          offer comprehensive financial support that will empower these women
+          towards a brighter future. Through a multifaceted approach, the
+          project envisions a society where divorce women are not left to
+          carry the emotional and financial burdens alone.
+        </p>
       </div>
 
-      <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-          <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
-            {" "}
-            Our Aim
-          </h1>
-          <p className=" mr-6 text-xl mx-5">
+      <div className="slider mt-1 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="mt-4 bg-[#f2f2f2] p-4 md:p-6 lg:p-8">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">
+          Our Aim
+        </h1>
+        <p className="text-base sm:text-lg">
             {" "}
             Understanding the multifarious implications of divorce, Help Divorce
             Women organises transformative workshops and empowers communities
@@ -89,15 +79,17 @@ const Projects = () => {
       </div>
 
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-        <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-          <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
-            What We Offer{" "}
-          </h1>
+        <div className="mt-4 bg-[#f2f2f2] p-4 md:p-6 lg:p-8">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">
+          What We Offer
+        </h1>
+     
 
           <h1 className="text-xl font-semibold">
             Social Awareness through seminars and conferences among youth
           </h1>
 
+          <p className="text-base sm:text-lg">
           <p className=" mr-6 text-xl mx-5">
             {" "}
             Social awareness and education play a vital role in addressing the
@@ -154,6 +146,12 @@ const Projects = () => {
         </div>
       </div>
 
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="mt-4 bg-[#f2f2f2] p-4 md:p-6 lg:p-8">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">
+          Financial Assistance
+        </h1>
+        <p className="text-base sm:text-lg">
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
           <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
@@ -198,6 +196,12 @@ const Projects = () => {
         </div>
       </div>
 
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="mt-4 bg-[#f2f2f2] p-4 md:p-6 lg:p-8">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">
+          Emotional Support
+        </h1>
+        <p className="text-base sm:text-lg">
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
           <h1 className="text-xl font-medium md:text-3xl  text-blue-900 mx-5">
@@ -228,6 +232,12 @@ const Projects = () => {
         </div>
       </div>
 
+      <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div className="mt-4 bg-[#f2f2f2] p-4 md:p-6 lg:p-8">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">
+          Practical Guidence
+        </h1>
+        <p className="text-base sm:text-lg">
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
         <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
           <h1 className="text-xl bg-white font-medium md:text-3xl  text-blue-900 mx-5">

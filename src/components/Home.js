@@ -56,7 +56,7 @@ const Home = () => {
   return (
     <div
       id="default-carousel"
-      className="relative w-full h-full p-11 bg-gray-300"
+      className="relative w-full h-full p-11 bg-[#e1e3ec]"
       data-carousel="slide"
       ref={carouselRef}
     >
@@ -145,9 +145,9 @@ const Home = () => {
 
 
       <div>
-        <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl  font-medium md:text-4xl text-blue-900 mx-5">
+            <h1 className="text-2xl font-medium md:text-4xl text-pink-600 mx-5">
               About Us
             </h1>
             <p className=" text-xl mr-6 ">
@@ -177,9 +177,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl text-blue-900 mx-5">
+            <h1 className="text-2xl font-medium md:text-4xl text-pink-600 mx-5">
               Challenges Faced By Women
             </h1>
             <p className="text-xl mr-6">
@@ -201,9 +201,9 @@ const Home = () => {
         </div> */}
         </div>
 
-        <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl  text-blue-900 mx-5">
+            <h1 className="text-2xl font-medium md:text-4xl  text-pink-600 mx-5">
               {" "}
               Our Objective
             </h1>
@@ -223,7 +223,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-5 ml-2  space-y-5">
             {/* <h1 className="text-2xl font-medium md:text-4xl  text-blue-900 mx-5">         Skills Enhancement Workshops
 </h1> */}

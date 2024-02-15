@@ -3,7 +3,7 @@ import donate2 from "./assets/donate2.png";
 import quote1 from './assets/Quote1.png'
 const Help = () => {
   return (
-    <div className=" bg-[#e4e5f1]">
+    <div className=" bg-[#eeeff5]">
       <div className=" flex-h-screen flex items-center justify-center">
         <img src={donate2} className="w-full h-80" alt="donate" />
       </div>
