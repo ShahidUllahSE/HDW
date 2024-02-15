@@ -31,13 +31,14 @@ const Team = () => {
   return (
 
     
-    <div>
-      {/* <div className=""> */}
-      <h1 className=" flex justify-center flex-wrap tracking-wider	font-semibold text-blue-400 my-10  text-4xl  ">
+    <div className="">
+      <div className="">
+      <h1 className=" flex justify-center flex-wrap tracking-wider	font-semibold text-green-700 my-10 pt-5  text-4xl  ">
         Meet <span className="text-pink-400 mx-3">Our Team</span>
       </h1>
+      
+      </div>
       <hr />
-      {/* </div> */}
 
 
     <div>
@@ -49,7 +50,7 @@ const Team = () => {
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={faisal} alt="Sunset in the mountains"/>
     <div className="px-6 py-4">
-    <div className="font-bold text-xl text-blue-600 font-serif mb-1">Faisal Mushtaq Yousafzai</div>
+    <div className="font-bold text-xl text-green-700 font-serif mb-1">Faisal Mushtaq Yousafzai</div>
     <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Monitoring Officer & Legal Advisor</div>
   
       <p className="text-gray-700 text-base">
@@ -61,7 +62,7 @@ const Team = () => {
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={uzair} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Uzair Khan</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Uzair Khan</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Executive Officer</div>
 
       <p className="text-gray-700 text-base ">
@@ -90,7 +91,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={eman} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Eman Faisal Shah</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Eman Faisal Shah</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Administration Officer</div>
 
       <p className="text-gray-700 text-base">
@@ -102,7 +103,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={wadana} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-blue-600 font-serif text-xl mb-1">Wadana Qazi</div>
+      <div className="font-bold text-green-700 font-serif text-xl mb-1">Wadana Qazi</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Documentation Specialist</div>
       <p className="text-gray-700 text-base">
       Greetings to all, Empower Her is focused on the betterment of women and plans to address the issues faced by judicially separated women and we hope to make life easier for them, I hope that each and everyone of you will not shy away from the curveballs this organisation throws at you.
@@ -113,7 +114,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={mahnoor} alt="Sunset in the mountains" />
     <div className="px-6 py-4 ">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Mahnoor Iqbal</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Mahnoor Iqbal</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Documentation Specialist</div>
       <p className="text-gray-700 text-base">
       I greet you all, this organisation follows quite a virtuous path. It  plans on tapping into the minds of youth and feeding them knowledge necessary for mental and social growth. 
@@ -124,7 +125,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={ayesha} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Ayesha Yousaf</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Ayesha Yousaf</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Documentation Specialist</div>
       <p className="text-gray-700 text-base">
       Greetings Everyone! Empower Her Organisation is working for a very noble cause and aims to establish a more fruitful and sustainable future for women, I hope that every single one of you will work with zeal and zest, looking forward to working with all of you.
@@ -135,7 +136,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={manayal} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Manayal Ahmed</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Manayal Ahmed</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Photographer</div>
       <p className="text-gray-700 text-base">
       Hello! I am the photographer of the EmpowerHer Organisation and I am here to make sure that no moment goes unnoticed and every interaction between the people working is captured by my lens,I welcome you all..Regards
@@ -146,7 +147,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={marwa} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Marwa Stuman</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Marwa Stuman</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Photographer</div>
 
       <p className="text-gray-700 text-base">
@@ -167,7 +168,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={moeez} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Moeez Khan</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Moeez Khan</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteers Lead</div>
 
       <p className="text-gray-700 text-base">
@@ -181,7 +182,7 @@ Warm regards
 <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={laiba} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Laiba Durrani</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Laiba Durrani</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
@@ -193,7 +194,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={umar} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">M.Umar Zeb Ghaznavi</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">M.Umar Zeb Ghaznavi</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
@@ -205,7 +206,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={manahil} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Manahil Irfan</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Manahil Irfan</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
@@ -218,7 +219,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={umair} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Muhammad Umair</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Muhammad Umair</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
@@ -230,7 +231,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={afaq} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Afaq Ahmed</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Afaq Ahmed</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
@@ -243,7 +244,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={suliman} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Suleiman Bangash</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Suleiman Bangash</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
@@ -260,7 +261,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={iqra} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Iqra Wisal</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Iqra Wisal</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
@@ -272,7 +273,7 @@ Warm regards
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
     <img className="w-full" src={muneeb} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
-      <div className="font-bold text-xl text-blue-600 font-serif mb-1">Syed Muneeb</div>
+      <div className="font-bold text-xl text-green-700 font-serif mb-1">Syed Muneeb</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
