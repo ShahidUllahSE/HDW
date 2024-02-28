@@ -33,8 +33,8 @@ const Team = () => {
     
     <div className="">
       <div className="">
-      <h1 className=" flex justify-center flex-wrap tracking-wider	font-semibold text-green-700 my-10 pt-5  text-4xl  ">
-        Meet <span className="text-pink-400 mx-3">Our Team</span>
+      <h1 className=" flex justify-center flex-wrap tracking-wider	font-semibold text-green-700 my-10 pt-5  text-4xl  ">Meet Our 
+        <span className="text-pink-400 mx-3"> Team</span>
       </h1>
       
       </div>
