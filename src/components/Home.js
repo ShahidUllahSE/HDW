@@ -149,7 +149,7 @@ const Home = () => {
       <div>
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12 space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600 md:mr-20">
+            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600 ">
               About Us
             </h1>
             <p className=" text-lg mr-4 px-2 md:text-xl">
@@ -181,7 +181,7 @@ const Home = () => {
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl text-pink-600 mx-auto">
+            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600 ">
               Challenges Faced By Women
             </h1>
             <p className="text-lg mr-4 px-2 md:text-xl">
@@ -205,7 +205,7 @@ const Home = () => {
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl  text-pink-600 mx-auto">
+            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600">
               {" "}
               Our Objective
             </h1>
