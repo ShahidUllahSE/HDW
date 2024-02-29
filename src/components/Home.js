@@ -8,6 +8,8 @@ import women2 from "./women2.jpg";
 import women5 from "./women5.png";
 import workshop1 from "./workshop1.jpg";
 import homeBanner from "./assets/homeBanner.png";
+import empW from "./assets/empW.jpg";
+import WE from "./assets/WE.jpg";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Team from "./Team";
@@ -56,7 +58,7 @@ const Home = () => {
   return (
     <div
       id="default-carousel"
-      className="relative w-full h-full p-11 bg-[#f1f2f8]"
+      className="relative w-full h-full p-5 bg-[#f1f2f8]"
       data-carousel="slide"
       ref={carouselRef}
     >
@@ -147,7 +149,7 @@ const Home = () => {
       <div>
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12 space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl text-pink-600 mx-auto">
+            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600 md:mr-20">
               About Us
             </h1>
             <p className=" text-lg mr-4 px-2 md:text-xl">
@@ -173,7 +175,7 @@ const Home = () => {
             </p>
           </div>
           <div className="right">
-            <img className=" flex w-full h-96" src={women2} alt="" />
+            <img className=" flex w-full h-auto" src={empW} alt="" />
           </div>
         </div>
 
@@ -219,7 +221,7 @@ const Home = () => {
             </p>
           </div>
           <div className="right">
-            <img className=" flex w-full h-96" src={homeBanner} alt="" />
+            <img className=" flex w-auto " src={homeBanner} alt="" />
           </div>
         </div>
 
@@ -239,9 +241,9 @@ const Home = () => {
               chosen fields and emerge as strong and capable individuals.
             </p>
           </div>
-          <div className="right">
-            <img className=" flex w-full h-96" src={workshop1} alt="" />
-          </div>
+          {/* <div className="right">
+            <img className=" flex w-auto  items-center h-auto" src={WE} alt="" />
+          </div> */}
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
