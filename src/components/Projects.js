@@ -3,17 +3,17 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="bg-[#f1f2f8]">
-    <div className="mx-4 sm:mx-10 md:mx-16 lg:mx-20 xl:mx-28">
-      <h1 className=" flex justify-center flex-wrap tracking-wider	font-semibold text-green-700 my-10 pt-5  text-4xl  ">
-        Help Divorse <span className="text-pink-400 mx-3">Women </span> (HDW)
+    <div className="mx-4 sm:mx-10">
+      <h1 className=" flex justify-center flex-wrap tracking-wider font-semibold text-green-700 my-5 pt-5  text-4xl  ">
+        Help Divorce <span className="text-pink-400 mx-3">Women </span> (HDW)
       </h1>
       <hr />
       {/* About Project Section */}
-      <div className="mt-4 bg-white p-4 md:p-6 lg:p-8">
+      <div className="flex flex-col items-center md:items-baseline mt-4  bg-white p-4 md:p-6 lg:p-8">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  text-pink-600 mb-5">
           About Project
         </h1>
-        <p className="text-base sm:text-lg">
+        <p className="text-base text-justify sm:text-lg">
           Our primary objective is to offer assistance to women in need by
           providing them with financial support. This support goes towards
           helping them overcome financial hurdles that often obstruct their
@@ -22,7 +22,7 @@ const Projects = () => {
           are designed to educate the public and foster a more inclusive and
           just society in Pakistan.
           <br />
-          With a resolute determination, Help Divorce Women endeavours to not
+          With a resolute determination, Help Divorce Women aims to not
           only alleviate the staggering numbers of divorce cases but also to
           offer comprehensive financial support that will empower these women
           towards a brighter future. Through a multifaceted approach, the
@@ -32,16 +32,16 @@ const Projects = () => {
       </div>
 
       <div className="slider mt-1 flex-col-reverse md:flex-row bg-[#f2f2f2]">
-      <div className="mt-4 bg-white p-4 md:p-6 lg:p-8">
+      <div className="flex flex-col items-center md:items-baseline mt-4 bg-white p-4 md:p-6 lg:p-8">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  text-pink-600 mb-5">
           Our Aim
         </h1>
-        <p className="text-base sm:text-lg">
+        <p className="text-base text-justify sm:text-lg">
             {" "}
             Understanding the multifarious implications of divorce, Help Divorce
             Women organises transformative workshops and empowers communities
             through enlightening seminars, both aimed at addressing the
-            complexities of divorces. By leveraging the power of shared
+            complexities of divorces, by leveraging the power of shared
             experiences and expert guidance, these interactive platforms create
             a safe space for divorce women to voice their concerns, find solace,
             and gain crucial insights regarding legal rights, financial
@@ -66,7 +66,7 @@ const Projects = () => {
             resilience.
             <br />
             <br />
-            Ultimately, Help Divorce Women by Empower Her seeks to uproot
+            Help Divorce Women by EmpowerHer organization seeks to uproot
             societal stigmas associated with divorce. By shedding light on the
             challenges faced by divorce women, this influential project
             endeavours to promote empathy, understanding, and support within
@@ -80,7 +80,7 @@ const Projects = () => {
       </div>
 
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-        <div className="mt-4 bg-white p-4 md:p-6 lg:p-8">
+        <div className="flex flex-col items-center md:items-baseline mt-4 bg-white p-4 md:p-6 lg:p-8">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  text-pink-600 mb-5">
           What We Offer
         </h1>
@@ -90,7 +90,7 @@ const Projects = () => {
             Social Awareness through seminars and conferences among youth
           </h1>
 
-          <p className="text-base sm:text-lg">
+          <p className="text-base text-justify sm:text-lg">
             {" "}
             Social awareness and education play a vital role in addressing the
             pressing issue of divorce within conservative societies such as
@@ -99,7 +99,7 @@ const Projects = () => {
             disseminate information and promote understanding among the youth.
             <br />
             <br />
-            Divorce, particularly when it comes to women, is often viewed as an
+            Post judicial separation particularly when it comes to women, is often viewed as an
             abuse or failure within Pakistani society. This negative perception
             not only affects the woman involved but also perpetuates societal
             pressures that she must endure, even when faced with toxic in-laws
@@ -122,10 +122,7 @@ const Projects = () => {
             beyond just the individuals involved. They can impact children,
             families, and the wider community as well. Awareness and education
             on these ramifications are crucial for fostering empathy and support
-            for those going through such challenging experiences.
-            <br />
-            By organising seminars and conferences, young individuals are given
-            the opportunity to engage in open discussions and gain a deeper
+            for those going through such challenging experiences, by organising seminars and conferences, young individuals are given the opportunity to engage in open discussions and gain a deeper
             understanding of divorce and its implications. These events aim to
             challenge existing stereotypes and social norms by promoting
             empathy, tolerance, and support for those involved in the process of
@@ -135,7 +132,7 @@ const Projects = () => {
             stigmatisation.
             <br />
             <br />
-            Through increased social awareness, education, and open dialogue, we
+            Through increased social awareness, education and open dialogue, we
             can strive towards a society where divorce is perceived not as a
             failure or abuse, but as a valid decision made for the wellbeing and
             happiness of individuals involved. Ultimately, by addressing this
@@ -147,11 +144,11 @@ const Projects = () => {
       </div>
 
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
-      <div className="mt-4 bg-white p-4 md:p-6 lg:p-8">
+      <div className="flex flex-col items-center md:items-baseline mt-4 bg-white p-4 md:p-6 lg:p-8">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  text-pink-600 mb-5">
           Financial Assistance
         </h1>
-        <p className="text-base sm:text-lg">
+        <p className="text-base text-justify sm:text-lg">
             {" "}
             The Helping Divorced Women Project is an invaluable initiative that
             is dedicated to providing assistance and support to those women who
@@ -162,19 +159,11 @@ const Projects = () => {
             independence, ultimately enabling them to flourish in their new
             chapter of life. <br />
             <br />
-            <br />
-            Divorce, particularly when it comes to women, is often viewed as an
-            abuse or failure within Pakistani society. This negative perception
-            not only affects the woman involved but also perpetuates societal
-            pressures that she must endure, even when faced with toxic in-laws
-            or an unbearable living situation. Unfortunately, many reported
-            cases in Pakistan highlight the dire consequences of such
-            circumstances, with some women tragically resorting to suicide as a
-            result of the lack of support and assistance from their own
-            families.
-            <br />
-            <br />
-            One key aspect of this project is its emphasis on budgeting. Divorce
+          
+        
+        
+            
+            One key objective of this project is its emphasis on budgeting. Divorce
             can often bring significant changes in financial circumstances, and
             many women find themselves needing to adjust to a new financial
             reality. The Helping Divorced Women Project recognises this
@@ -190,11 +179,11 @@ const Projects = () => {
       </div>
 
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
-      <div className="mt-4 bg-white p-4 md:p-6 lg:p-8">
+      <div className="flex flex-col items-center md:items-baseline mt-4 bg-white p-4 md:p-6 lg:p-8">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  text-pink-600 mb-5">
           Emotional Support
         </h1>
-        <p className="text-base sm:text-lg">
+        <p className="text-base text-justify sm:text-lg">
             {" "}
             The Help Divorced Women Project is a sanctuary of encouragement,
             serving as a catalyst for personal and emotional transformation.
@@ -212,21 +201,21 @@ const Projects = () => {
             deeper level, creating lasting friendships that go beyond the
             confines of virtual platforms. This multifaceted approach ensures
             that every woman involved in the project has a comprehensive support
-            network, both on and offline, providing strength and guidance
+            network, both online and offline, providing strength and guidance
             whenever needed <br />
           </p>
         </div>
       </div>
 
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
-      <div className="mt-4 bg-white p-4 md:p-6 lg:p-8">
+      <div className="flex flex-col items-center md:items-baseline mt-4 bg-white p-4 md:p-6 lg:p-8">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  text-pink-600 mb-5">
           Practical Guidence
         </h1>
         <p className="text-base sm:text-lg">
             {" "}
-            Help divorce women helps on practical grounds and provides legal
-            assistance, financial support and emotional assistance to the woman.{" "}
+            Help Divorce Women works on practical grounds and provides legal
+            assistance, financial support and emotional assistance to women.{" "}
             <br />
             In terms of the legal aspects, practical guidance ensures that
             individuals are equipped with the necessary tools to understand the
@@ -245,7 +234,7 @@ const Projects = () => {
             individuals gain access to trustworthy financial resources and
             professionals who can help them make informed decisions concerning
             their financial future. This comprehensive assistance ensures that
-            individuals are well-equipped to navigate the potentially complex
+            individuals are well-equipped to navigate the complex
             financial aspects of divorce, empowering them to make choices that
             are in their best interests.
             <br />

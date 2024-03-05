@@ -81,13 +81,13 @@ const Home = () => {
             alt="Slide 2"
           />
         </div>
-        <div className="duration-1 ease-in-out w-full h-56" data-carousel-item>
+        {/* <div className="duration-1 ease-in-out w-full h-56" data-carousel-item>
           <img
             src={img6}
             className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="Slide 3"
           />
-        </div>
+        </div> */}
         <div className="duration-1 ease-in-out" data-carousel-item>
           <img
             src={img4}
@@ -149,11 +149,11 @@ const Home = () => {
       <div>
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12 space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600 ">
+            <h1 className="text-2xl px-3 font-medium md:text-4xl md:text-left text-pink-600 ">
               About Us
             </h1>
-            <p className=" text-lg mr-4 px-2 md:text-xl">
-              The Empover Her Organization works to improve Pakistani women's
+            <p className=" text-lg text-justify mr-4 px-4 md:text-xl">
+              The EmpowerHer Organization works to improve Pakistani women's
               lives in a constructive manner. In an effort to stop
               discriminatory behaviors, we fight for justice and gender
               equality. We empower women by educating them about their legal
@@ -181,10 +181,10 @@ const Home = () => {
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600 ">
+            <h1 className="text-2xl px-3 font-medium md:text-4xl md:text-left text-pink-600 ">
               Challenges Faced By Women
             </h1>
-            <p className="text-lg mr-4 px-2 md:text-xl">
+            <p className="text-lg mr-4 text-justify px-4 md:text-xl">
               Pakistan, being a third-world country with a deeply entrenched
               conservative and patriarchal society, women often find themselves
               at the receiving end of systemic suppression. This suppression
@@ -195,7 +195,7 @@ const Home = () => {
               assert their rights, the situation in rural areas remains
               remarkably resistant to transformation. Here, women encounter
               persistent challenges, and the broader societal framework
-              continues to perpetuate a misogynistic environment..
+              continues to perpetuate a misogynistic environment.
             </p>
           </div>
           {/* <div className="right">
@@ -205,11 +205,11 @@ const Home = () => {
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
           <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600">
+            <h1 className="text-2xl px-3 font-medium md:text-4xl md:text-left text-pink-600">
               {" "}
               Our Objective
             </h1>
-            <p className="text-lg mr-6 px-2 md:text-xl ">
+            <p className="text-lg mr-6 text-justify px-4 md:text-xl ">
               {" "}
               Our primary objective is to offer assistance to women in need by
               providing them with financial support. This support goes towards
@@ -226,11 +226,11 @@ const Home = () => {
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-          <div className="left flex flex-col  items-center md:items-baseline py-5 ml-2  space-y-5">
+          <div className="left flex flex-col items-center md:items-baseline py-5 ml-2  space-y-5">
             {/* <h1 className="text-2xl font-medium md:text-4xl  text-blue-900 mx-5">         Skills Enhancement Workshops
 </h1> */}
 
-            <p className="text-lg mr-6 px-2 md:text-xl">
+            <p className="text-lg mr-6 text-justify px-4 md:text-xl">
               {" "}
               The organisation holds workshops aimed at helping women in
               Pakistan enhance their skills and talents. By equipping them with
@@ -247,8 +247,8 @@ const Home = () => {
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-          <div className="left flex flex-col  items-center  md:items-baseline py-5  space-y-5">
-            <p className="text-lg mr-6 px-2 md:text-xl ">
+          <div className="left flex flex-col px-3 items-center  md:items-baseline py-5  space-y-5">
+            <p className="text-lg mr-6 text-justify px-4 md:text-xl ">
               {" "}
               This community welfare organisation operates with the purpose of
               empowering women and advocating for their rights in Pakistan. It
@@ -257,7 +257,7 @@ const Home = () => {
               providing financial support, spreading awareness through seminars
               and conferences, and offering skill-enhancing workshops, we strive
               to empower women in Pakistan to become independent, confident, and
-              influential members of society..
+              influential members of society.
             </p>
           </div>
         </div>
