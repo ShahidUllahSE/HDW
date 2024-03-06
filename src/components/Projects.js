@@ -80,8 +80,13 @@ const Projects = () => {
       </div>
 
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
+
         <div className="flex flex-col items-center md:items-baseline mt-4 bg-white p-4 md:p-6 lg:p-8">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  text-pink-600 mb-5">
+
+        <div className="mt-4 bg-[#f2f2f2] p-4 md:p-6 lg:p-8">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">
+
           What We Offer
         </h1>
      
@@ -208,8 +213,13 @@ const Projects = () => {
       </div>
 
       <div className="slider mt-4 flex-col-reverse md:flex-row bg-[#f2f2f2]">
+
       <div className="flex flex-col items-center md:items-baseline mt-4 bg-white p-4 md:p-6 lg:p-8">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  text-pink-600 mb-5">
+
+      <div className="mt-4 bg-[#f2f2f2] p-4 md:p-6 lg:p-8">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">
+
           Practical Guidence
         </h1>
         <p className="text-base sm:text-lg">
@@ -251,6 +261,7 @@ const Projects = () => {
       </div>
     </div>
     </div>
+
   );
 };
 
