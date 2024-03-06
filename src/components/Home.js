@@ -178,30 +178,30 @@ const Home = () => {
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-          <div className="left flex flex-col items-center md:items-baseline py-12 space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600">
+          <div className="left flex flex-col  items-center md:items-baseline py-12 space-y-5">
+            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600 ">
               About Us
             </h1>
-            <p className="text-lg mr-4 px-2 md:text-xl">
-              The EmpoverHer Organization works to improve Pakistani women's
-              lives in a constructive manner. In an effort to stop discriminatory
-              behaviors, we fight for justice and gender equality. We empower
-              women by educating them about their legal rights and safeguards
-              through educational programs. We actively collaborate with local
-              communities to solve the unique difficulties encountered by women
-              through our community outreach activities. Programs for vocational
-              training give women real-world skills that improve their
-              employability and financial security. Initiatives to support women
-              entrepreneurs help them launch and expand their own companies,
-              resulting in economic empowerment. Since we know how important
-              legal assistance is, we provide legal aid services to women who are
-              dealing with difficulties or injustices. By addressing complex
-              issues, this all-encompassing strategy seeks to build a more just
-              and equal society for women in Pakistan. The organization's
-              commitment is reflected in a holistic strategy that combines
-              advocacy, education, vocational training, entrepreneurship, and
-              legal support, empowering women to lead fulfilling lives and
-              contribute meaningfully to their communities.
+            <p className=" text-lg mr-4 px-2 md:text-xl">
+              The Empover Her Organization works to improve Pakistani women's
+              lives in a constructive manner. In an effort to stop
+              discriminatory behaviors, we fight for justice and gender
+              equality. We empower women by educating them about their legal
+              rights and safeguards through educational programs. We actively
+              collaborate with local communities to solve the unique
+              difficulties encountered by women through our community outreach
+              activities. Programs for vocational training give women real-world
+              skills that improve their employability and financial security.
+              Initiatives to support women entrepreneurs help them launch and
+              expand their own companies, resulting in economic empowerment.
+              Since we know how important legal assistance is, we provide legal
+              aid services to women who are dealing with difficulties or
+              injustices. By addressing complex issues, this all-encompassing
+              strategy seeks to build a more just and equal society for women in
+              Pakistan. The organization's commitment is reflected in a holistic
+              strategy that combines advocacy, education, vocational training,
+              entrepreneurship, and legal support, empowering women to lead
+              fulfilling lives and contribute meaningfully to their communities.
             </p>
           </div>
           <div className="right">
@@ -210,11 +210,11 @@ const Home = () => {
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-          <div className="left flex flex-col items-center md:items-baseline py-12 space-y-5">
-            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600">
+          <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
+            <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600 ">
               Challenges Faced By Women
             </h1>
-            <p className="text-lg mr-4 px-2 md:text-xl">
+            <p className="text-lg mr-4 text-justify px-4 md:text-xl">
               Pakistan, being a third-world country with a deeply entrenched
               conservative and patriarchal society, women often find themselves
               at the receiving end of systemic suppression. This suppression
@@ -231,11 +231,13 @@ const Home = () => {
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-          <div className="left flex flex-col items-center md:items-baseline py-12 space-y-5">
+          <div className="left flex flex-col  items-center md:items-baseline py-12  space-y-5">
             <h1 className="text-2xl font-medium md:text-4xl md:text-left text-pink-600">
+              {" "}
               Our Objective
             </h1>
-            <p className="text-lg mr-6 px-2 md:text-xl">
+            <p className="text-lg mr-6 px-2 md:text-xl ">
+              {" "}
               Our primary objective is to offer assistance to women in need by
               providing them with financial support. This support goes towards
               helping them overcome financial hurdles that often obstruct their
@@ -251,8 +253,12 @@ const Home = () => {
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-          <div className="left flex flex-col items-center md:items-baseline py-5 ml-2 space-y-5">
+          <div className="left flex flex-col  items-center md:items-baseline py-5 ml-2  space-y-5">
+            {/* <h1 className="text-2xl font-medium md:text-4xl  text-blue-900 mx-5">         Skills Enhancement Workshops
+</h1> */}
+
             <p className="text-lg mr-6 px-2 md:text-xl">
+              {" "}
               The organisation holds workshops aimed at helping women in
               Pakistan enhance their skills and talents. By equipping them with
               the necessary tools and knowledge, these workshops encourage women
@@ -265,8 +271,9 @@ const Home = () => {
         </div>
 
         <div className="slider mt-4 flex-col-reverse md:flex-row bg-white">
-          <div className="left flex flex-col items-center md:items-baseline py-5 space-y-5">
-            <p className="text-lg mr-6 px-2 md:text-xl">
+          <div className="left flex flex-col  items-center  md:items-baseline py-5  space-y-5">
+            <p className="text-lg mr-6 px-2 md:text-xl ">
+              {" "}
               This community welfare organisation operates with the purpose of
               empowering women and advocating for their rights in Pakistan. It
               tackles the challenges faced by women living in a deeply

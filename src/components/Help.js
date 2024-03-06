@@ -1,18 +1,19 @@
 import React from "react";
 import donate2 from "./assets/donate2.png";
+import donut from "./assets/donut.png"
 import quote1 from './assets/Quote1.png'
 const Help = () => {
   return (
-    <div className=" bg-[#eeeff5]">
+    <div className=" bg-[#f1f2f8]">
       <div className=" flex-h-screen flex items-center justify-center">
-        <img src={donate2} className="w-full h-80" alt="donate" />
+        <img src={donut} className="w-auto h-50 px-4 mt-2" alt="donate" />
       </div>
 
       <div className="slider mt-4 bg-[#ffffff] px-4 md:px-24 py-8 md:mx-4 border border-gray-300">
   <div className="text-center md:text-left font-serif mx-auto md:mx-0">
-    <p className="font-semibold mb-4">Join our community of strong and bold women!</p>
+    <p className="font-semibold text-pink-500 mb-4">Join our community of strong and bold women!</p>
     <p>
-    Help us make a change, Help us foster a society where women can live their life to the full extent, Help us in lifting up oppressed women. Help us in our mission to support women, Help us to nurture independent women of society,Help them to educate, help them to build themselves.As an empowered and independent woman leads to an empowered society
+    Help us make a change, Help us foster a society where women can live their life to the full extent, Help us in lifting up oppressed women, Help us in our mission to support women, Help us to nurture independent women of society, Help them to educate, Help them to build themselves. As an empowered and independent woman leads to an empowered society.
       <br/><br/>
       A little contribution from your front can make a big impact on someone's life, and we promise you that your contributions will reach to the people in need.<br/>
 For God forbid it could be  someone from your family in the future, Help us make a change in finishing this wave of oppression from our society once and for all.

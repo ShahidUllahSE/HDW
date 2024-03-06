@@ -29,10 +29,10 @@ const Navbar = () => {
       <div className="navbar flex justify-between items-center p-2">
         {/* Logo */}
         <div className="logo flex align-baseline">
-          <img src={Logoo} alt="Logo" className="w-20 h-20 -mt-2" />
+          <img src={Logoo} alt="Logo" className="w-20 h-20 -mt-3" />
           <div className="md:hidden lg:block">
-            <h1 className="text-green-700 mt-2 tracking-widest font-semibold">
-              Empower<span className="text-pink-500">Her</span> <br />
+            <h1 className="text-green-700 -mx-2 mt-2 tracking-widest font-semibold">
+              Empower<span className="text-pink-700">Her</span> <br />
               Organization
             </h1>
           </div>
