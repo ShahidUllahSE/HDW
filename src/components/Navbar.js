@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
 import Logoo from "./Logoo.png";
 
 const Navbar = () => {
@@ -7,7 +9,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768) {
-        setShowMenu(false); // Automatically hide the menu on larger screens when resizing
+        setShowMenu(false);
       }
     };
 
@@ -73,13 +75,13 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-9 m-5">
           {/* Links */}
           <a href="/" className="hover:underline hover:underline-offset-8 active:bg-pink-600 hover:text-pink-500 cursor-pointer font-normal">Home</a>
-            <a href="/Team" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Team</a>
-            <a href="/Gallery" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Gallery</a>
-            <a href="/Projects" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Projects</a>
+            <Link to ="/Team" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Team</Link>
+            <Link to ="/Gallery" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Gallery</Link>
+            <Link to ="/Projects" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Projects</Link>
             <div className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Videos</div>
-            <a href="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Become Volunteer</a>
-            <a href="/Help" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Help Us</a>
-            <a href="/Contact" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Contact Us</a>
+            <Link to ="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Become Volunteer</Link>
+            <Link  to="/Help" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Help Us</Link>
+            <Link to="/Contact" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Contact Us</Link>
         </div>
       </div>
     </div>

@@ -152,9 +152,9 @@ const Volanteer = () => {
 
               <div className="md:col-span-5">
                 
-<label for="message" class="block mb-2  font-semibold">Your message</label>
+<label for="message" class="block mb-2  font-semibold">What Motivates You?</label>
 <textarea id="message" onChange={(e) => setMessage(e.target.value)}
-                 value={message} rows="4" class="block p-2.5 w-full border-2" placeholder="Why are you intrested?"></textarea>
+                 value={message} rows="4" class="block p-2.5 w-full border-2" placeholder="Share your thoughts"></textarea>
 
                 {/* <label for="message">Message</label>
                 <input type="textbox"
