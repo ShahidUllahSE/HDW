@@ -54,7 +54,7 @@ const Team = () => {
     <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Monitoring Officer & Legal Advisor</div>
   
       <p className="text-gray-700 text-base">
-      Greetings Everyone, we to lay the foundation for a more efficient and mentally sound society, A society where everyone is equally respected and responsible, I wish that each and everyone of you understand this fact and aim to work for the betterment of this community…A warm welcome to you all. 
+      Greetings Everyone, we to lay the foundation for a more efficient and mentally sound society, A society where everyone is equally respected and responsible, I wish that each and everyone of you understand this fact and aim to work for the betterment of this community… A warm welcome to you all. 
       </p>
     </div>
   </div>
@@ -70,10 +70,7 @@ const Team = () => {
 Warm regards
 
       </p>
-      {/* <button id="toggle-btn" class="mt-4 text-blue-500 focus:outline-none">Read More</button>
-    <button id="hide-btn" class="hidden mt-4 text-blue-500 focus:outline-none">Hide</button> */}
-
-    
+   
     </div>
   </div>
  </div>
@@ -95,7 +92,7 @@ Warm regards
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Administration Officer</div>
 
       <p className="text-gray-700 text-base">
-      Hello everyone, Women in our country face a rather biased and harsh upbringing, Empower Her Organisation hopes to eliminate this factor from our society and to work for the social welfare of women, I welcome you all. 
+      Hello everyone, Women in our country face a rather biased and harsh upbringing, EmpowerHer Organisation hopes to eliminate this factor from our society and to work for the social welfare of women, I welcome you all. 
       </p>
     </div>
   </div>
@@ -106,7 +103,7 @@ Warm regards
       <div className="font-bold text-green-700 font-serif text-xl mb-1">Wadana Qazi</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Documentation Specialist</div>
       <p className="text-gray-700 text-base">
-      Greetings to all, Empower Her is focused on the betterment of women and plans to address the issues faced by judicially separated women and we hope to make life easier for them, I hope that each and everyone of you will not shy away from the curveballs this organisation throws at you.
+      Greetings to all, EmpowerHer is focused on the betterment of women and plans to address the issues faced by judicially separated women and we hope to make life easier for them, I hope that each and everyone of you will not shy away from the curveballs this organisation throws at you.
       </p>
     </div>
   </div>
@@ -128,7 +125,7 @@ Warm regards
       <div className="font-bold text-xl text-green-700 font-serif mb-1">Ayesha Yousaf</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Documentation Specialist</div>
       <p className="text-gray-700 text-base">
-      Greetings Everyone! Empower Her Organisation is working for a very noble cause and aims to establish a more fruitful and sustainable future for women, I hope that every single one of you will work with zeal and zest, looking forward to working with all of you.
+      Greetings Everyone! EmpowerHer Organisation is working for a very noble cause and aims to establish a more fruitful and sustainable future for women, I hope that every single one of you will work with zeal and zest, looking forward to working with all of you.
       </p>
     </div>
   </div>
@@ -139,7 +136,7 @@ Warm regards
       <div className="font-bold text-xl text-green-700 font-serif mb-1">Manayal Ahmed</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Photographer</div>
       <p className="text-gray-700 text-base">
-      Hello! I am the photographer of the EmpowerHer Organisation and I am here to make sure that no moment goes unnoticed and every interaction between the people working is captured by my lens,I welcome you all..Regards
+      Hello! I am the photographer of the EmpowerHer Organisation and I am here to make sure that no moment goes unnoticed and every interaction between the people working is captured by my lens, I welcome you all.. Regards
       </p>
     </div>
   </div>
@@ -192,7 +189,7 @@ Warm regards
   </div>
 
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
-    <img className="w-full" src={umar} alt="Sunset in the mountains" />
+    <img className="w-full" src={muneeb} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
       <div className="font-bold text-xl text-green-700 font-serif mb-1">M.Umar Zeb Ghaznavi</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
@@ -210,7 +207,7 @@ Warm regards
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
-      Greetings, I am thrilled to be a part Empower Her Organization.I’ve found a group of people that share my values and ideas of making this world a better and safer place for women. I am appreciative of the chance to join this empowering path for women. Join us as we together reach new heights and break the barriers.
+      Greetings, I am thrilled to be a part EmpowerHer Organization. I’ve found a group of people that share my values and ideas of making this world a better and safer place for women. I am appreciative of the chance to join this empowering path for women. Join us as we together reach new heights and break the barriers.
       </p>
     </div>
   </div>
@@ -235,7 +232,7 @@ Warm regards
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
-      Hello everyone! I am a volunteer of Empower Her Organisation and I would love to make this project better by covering the shortcomings with you all.
+      Hello everyone! I am a volunteer of EmpowerHer Organisation and I would love to make this project better by covering the shortcomings with you all.
       </p>
     </div>
   </div>
@@ -248,7 +245,7 @@ Warm regards
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
-      Good Morrow to everyone, I am Suleiman Bangash…I joined this organisation due to the philanthropic aspect and the noble cause they were following, I am a volunteer of Empower Her Organisation. 
+      Good Morrow to everyone, I am Suleiman Bangash…I joined this organisation due to the philanthropic aspect and the noble cause they were following, I am a volunteer of EmpowerHer Organisation. 
       </p>
     </div>
   </div>
@@ -265,13 +262,13 @@ Warm regards
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>
 
       <p className="text-gray-700 text-base">
-      Hello! I’m Iqra Wisal, I am the Volunteer of EmpowerHer organisation,. Thrilled about the prospect of working collaboratively and making a positive impact together. Looking forward to our shared journey!
+      Hello! I’m Iqra Wisal, I am the Volunteer of EmpowerHer organisation, Thrilled about the prospect of working collaboratively and making a positive impact together. Looking forward to our shared journey!
       </p>
     </div>
   </div>
 
   <div className="max-w-xs rounded border-2 border-pink-400 m-4 overflow-hidden shadow-lg">
-    <img className="w-full" src={muneeb} alt="Sunset in the mountains" />
+    <img className="w-full" src={umar} alt="Sunset in the mountains" />
     <div className="px-6 py-4">
       <div className="font-bold text-xl text-green-700 font-serif mb-1">Syed Muneeb</div>
       <div className="font-bold font-serif text-sm w-auto p-1 bg-slate-200 mb-2 ">Volunteer</div>

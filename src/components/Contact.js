@@ -43,7 +43,7 @@ const Contact = () => {
 
   return (
     <div>
-      <div className="min-h-screen p-6 bg-gray-300 flex items-center justify-center">
+      <div className="min-h-screen p-6 bg-[#f1f2f8] flex items-center justify-center">
         <div className="container max-w-screen-lg mx-auto">
           <div>
             <h2 className="font-bold text-center text-xl text-gray-600">Contact Us</h2>
