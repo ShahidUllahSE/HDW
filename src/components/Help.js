@@ -1,5 +1,4 @@
 import React from "react";
-import donate2 from "./assets/donate2.png";
 import donut from "./assets/donut.png"
 import quote1 from './assets/Quote1.png'
 const Help = () => {

@@ -3,15 +3,8 @@ import g1 from './assets/g1.png'
 import g2 from './assets/g2.png'
 import g3 from './assets/g3.png'
 import g4 from './assets/g4.png'
-
-
-
 import gallery5 from './assets/gallery5.jpg'
 import gallery6 from './assets/gallery6.jpg'
-
-
-
-
 
 
 const Gallery = () => {

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import img1 from "./img1.jpg";
 import img2 from "./img2.jpg";
-import img6 from "./img6.jpg";
 import img4 from "./img4.jpg";
 import img3 from "./img3.jpg";
 import homeBanner from "./assets/homeBanner.png";
