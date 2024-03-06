@@ -78,7 +78,6 @@ const Navbar = () => {
             <Link to ="/Team" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Team</Link>
             <Link to ="/Gallery" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Gallery</Link>
             <Link to ="/Projects" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Projects</Link>
-            <div className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Videos</div>
             <Link to ="/Volanteer" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Become Volunteer</Link>
             <Link  to="/Help" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Help Us</Link>
             <Link to="/Contact" className="hover:underline hover:underline-offset-8 hover:text-pink-500 cursor-pointer font-normal">Contact Us</Link>
