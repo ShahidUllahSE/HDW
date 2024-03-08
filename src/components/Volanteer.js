@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import {NotificationContainer, NotificationManager} from 'react-notifications';
+import { NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
-import { useNavigate } from 'react-router';
 
 const Volanteer = () => {
 
@@ -18,7 +17,6 @@ const Volanteer = () => {
 
   const [address, setAddress] = useState('');
 
-  const naviagte = useNavigate();
 
   const register = async (e) => {
     e.preventDefault();

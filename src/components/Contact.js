@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
-import { useNavigate } from 'react-router';
 
 const Contact = () => {
   const [fullName, setFullName] = useState('');
@@ -10,7 +9,6 @@ const Contact = () => {
   const [message, setMessage] = useState('');
   const [address, setAddress] = useState('');
 
-  const navigate = useNavigate();
 
   const register = async (e) => {
     e.preventDefault();
