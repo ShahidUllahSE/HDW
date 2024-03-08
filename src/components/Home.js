@@ -6,6 +6,7 @@ import img3 from "./img3.jpg";
 import homeBanner from "./assets/homeBanner.png";
 import empW from "./assets/empW.jpg";
 
+
 const Home = () => {
   const [rendered, setRendered] = useState(false);
 
@@ -47,16 +48,17 @@ const Home = () => {
       };
 
       // Check if the carouselRef.current is not null before adding the event listener
-      if (carouselRef.current) {
-        carouselRef.current.addEventListener("click", handleCarouselClick);
+      const currentCarouselRef = carouselRef.current;
+      if (currentCarouselRef) {
+        currentCarouselRef.addEventListener("click", handleCarouselClick);
       }
 
       startSliding();
 
       return () => {
         // Remove the event listener only if it exists
-        if (carouselRef.current) {
-          carouselRef.current.removeEventListener("click", handleCarouselClick);
+        if (currentCarouselRef) {
+          currentCarouselRef.removeEventListener("click", handleCarouselClick);
         }
 
         clearInterval(autoSlideIntervalRef.current);
@@ -68,6 +70,7 @@ const Home = () => {
     // If not yet rendered, return null or a loading message
     return <p>Loading...</p>;
   }
+
 
   return (
     <div
